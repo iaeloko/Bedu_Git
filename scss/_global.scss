@@ -1,0 +1,22 @@
+/ _global.scss
+
+// Colores
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$white: #ffffff;
+
+/**
+Fuentes
+*/
+$font-title: "Alegreya", serif;
+
+%base-title {
+  font-family: $font-title;
+  color: $dark-green-text;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
