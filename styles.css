@@ -4,9 +4,18 @@
   box-sizing: border-box;
 }
 
+.flex-container {
+  display: flex;
+  box-sizing: content-box;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   background-color: #fffbf7;
 }
+
+
 
 h1 {
   font-size: 60px;
@@ -448,6 +457,12 @@ iframe {
     flex-direction: column;
   }
 }
+
+
+.text-boton:hover {
+  background-color: red;
+
+}   
 
 /** dispositivos pequeños en vista landscape (horizontal) */
 @media (min-width: 576px) and (max-width: 767px) {
